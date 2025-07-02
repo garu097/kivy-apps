@@ -1,10 +1,21 @@
 from kivymd.app import MDApp
-from kivymd.uix.label import MDLabel
+from kivymd.uix.screen import MDScreen
+
+from components.button.button import CButton
+from config.theme import Theme
 
 
 class MainApp(MDApp):
 	def build(self):
-		return MDLabel(text="Hello, World!")
+		self.my_theme = Theme.instance()
+		self.theme_cls = self.my_theme.theme_cls
+
+		screen = MDScreen()
+		button = CButton(text="Click Me")
+		screen.add_widget(button)
+		return screen
 
 
-MainApp().run()
+if __name__ == "__main__":
+	theme = Theme()
+	MainApp().run()

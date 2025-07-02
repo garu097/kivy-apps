@@ -1,0 +1,14 @@
+.env
+.venv
+.ruff_cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.mo        
