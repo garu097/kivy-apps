@@ -1,0 +1,19 @@
+# Core GUI framework
+kivy[base]~=2.3.0
+
+# Material Design components
+kivymd~=1.1.1
+
+# Useful extras
+pillow>=9.0.0         # For image handling
+pygments>=2.10.0      # Used for syntax highlighting in some demos
+docutils>=0.16        # Used in markdown or documentation features
+
+# Build tools (only relevant during packaging)
+cython>=0.29.33       # Required by build tools and compiling extensions
+setuptools>=65.0.0
+
+# Optional (use only if app depends on these features)
+requests>=2.28.0      # HTTP requests
+urllib3>=1.26.0       # Better HTTP support
+certifi               # SSL certificate bundle
