@@ -1,10 +1,4 @@
-# Core GUI framework
-kivy[base]~=2.3.0
 
-# Material Design components
-kivymd~=1.1.1
-
-# Useful extras
 pillow>=9.0.0         # For image handling
 pygments>=2.10.0      # Used for syntax highlighting in some demos
 docutils>=0.16        # Used in markdown or documentation features
