@@ -1,5 +1,5 @@
 [tool.ruff]
-line-length = 88
+line-length = 100
 target-version = "py310"
 
 select = [
@@ -44,7 +44,7 @@ exclude = [
 
 [tool.ruff.lint]
 ignore = [
-    # "E501",  # Line too long
+    "E501", # Line too long
     # "F401",  # Module imported but unused
     # "F403",  # 'from module import *' used
     # "I001",  # Import block is unsorted

@@ -11,3 +11,4 @@ setuptools>=65.0.0
 requests>=2.28.0      # HTTP requests
 urllib3>=1.26.0       # Better HTTP support
 certifi               # SSL certificate bundle
+python-dotenv
